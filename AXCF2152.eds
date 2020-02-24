@@ -1,0 +1,964 @@
+$ EZ-EDS Version 3.25.1.20181218 Generated Electronic Data Sheet
+
+$ ****************************************************************************
+$  
+$ Changes:
+$  
+$  Version  Date        Name   Description
+$ -------------------------------------------------------------------------
+$  1.1      2016.02.25  SMa    Created release version
+$  
+$ ****************************************************************************
+
+[File]
+        DescText = "EDS-File for Phoenix Contact AXC F 2152 controller";
+        CreateDate = 04-30-2019;
+        CreateTime = 14:31:33;
+        ModDate = 04-30-2019;
+        ModTime = 12:37:04;
+        Revision = 1.02;
+        HomeURL = "www.phoenixcontact.com";
+
+[Device]
+        VendCode = 562;
+        VendName = "Phoenix Contact";
+        ProdType = 14;
+        ProdTypeStr = "Programmable Logic Controller";
+        ProdCode = 8220;
+        MajRev = 1;
+        MinRev = 2;
+        ProdName = "AXC F 2152";
+        Catalog = "2404267";
+        Icon = "AXCF2152.ico";
+        IconContents =
+                "AAABAAIAEBAAAAEACABoBQAAJgAAACAgAAABAAgAqAgAAI4FAAAoAAAAEAAA"
+                "ACAAAAABAAgAAAAAAAABAADDDgAAww4AAAABAAAAAQAA/v7+AP39/QDj5OUA"
+                "7u/wAPz8/ADb3N0ApKitAKSmqgCmqKwAsrW4AMrMzwDt7e0A3t/hAO3t7gD5"
+                "+foAz9DTAKOnqwCeoqcAmJyiAJqfpACmqa4Atbe7AKqtsQCvsbQAsLK1ALm7"
+                "vgC+v8IA9/f4AM/R0wClqKwApKesAJOYngCPlZsAmZ2jAKaprQCnqq4AqKuv"
+                "AJWZnwDz9PQAy83PAJaaoACanqMAkJWbAKCjqACfoqgAoaOpAKKlqwCjpasA"
+                "kpacAPP09QC+wMIAbnB0AIuPkwCQlJkAj5OYAJCUmgCNkZYAj5SZAJWZngCN"
+                "kpgA9PT1APj5+QCpq68AmZufAIyOkgCChIgAkZWaAGBhYwA4NDcARkRMAFVV"
+                "XQBpZ2kAfYKIAIuRmQD3+PgA+/v7AK2wswChpKgApKerAHl6fQBUUVQAOzg6"
+                "ACgkJQAjHiAAJEVlAKSttgCmqKsAnqGjAKWoqwCTlpoAnaCkAKGkqQCbnqIA"
+                "i42QAFx4kgCss7oA8vLyANvc3ADKyssAlpaXAISFhwCGiYsAoqWpAJygpACF"
+                "kp4AorfLAO7u7gDZ2doAzc/QAMzNzwD6+voA////AAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGprbG1uAAAAAARg"
+                "YWJjZGVmTmdoaQAAAD1WV1hZWk1bK1xdXl8BAABLTCtNTk1PUFFSU1RVAAAA"
+                "PT4/QEFCQ0RFRkdISUoAAAEyMzQ1NTY3ODkwOjs8AAAAJygpKCooKywtLi8w"
+                "MQAAABwdHh8gISIiIyMkJSYAAAAPEBESExQVFhcYGRobAAAABQYHCAkKCwwN"
+                "DgEAAAAAAAECAwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAIAAAA"
+                "AAAABAAAww4AAMMOAAAAAQAAAAEAAP7+/gD3+PgA1dfZAMbIygDX2NkA5+jq"
+                "AMrLzQCrrbEAlpuhAKOmqgCeoaYArrCzALzAxQDb29wA4+TlAOvs7AC7vb8A"
+                "pqmtAMTGyQDz8/QAs7W5AJ+iqACoq64AvL7BANPU1QCanqIAhI2YAI2TmQCx"
+                "s7YAtri6AJWZngCgo6YAjZCVAIWRnACSlpsAhoyTAImOkwBRUFMASEZIAICD"
+                "hQCFiI0AiIuNAJCRkQCanJ4AV1haAEtLTgB8fYEAg4aLAHJ0dwBPTVAAQT5B"
+                "AFtbZwBoaXAAcXR7AHl8fwBFQkQAJB8hACciKgAxLC4AMi87ADo3OwAsJigA"
+                "KGOWAIaUogDCw8QAfoCCAFtaXQAzLzEAHyUxACVopQCMnKwAzM7QAHBsaQBM"
+                "VmMANnSrAJemtADc3+EAdnl8AGeDnQBkZGUAZ2lqAEyEtwB2hpUAl63BAP//"
+                "/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEB"
+                "Ew8FEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUEEBwLCwcLDwAAAAAAAAAA"
+                "AAAAAAAAARMTBEARKkErGRUREREJS1JTBQAAAAAAAAAAAAEPDUAcFitPQlAw"
+                "MCoREQkVCCIILlEXAAAAAAAAAAEdKyIrCRYKTSsJCQkJFQoZGQoJCRpOPxQB"
+                "AAAAAAAADx8JFhEJCR8rKwofCQkJCREVHi5ISUpLTAAAAAAAAAAAQAkfKwoK"
+                "HwkRER4pQTVCLUM4ODhERUZHAAAAAAAAABMcCQkJCRERER4fJzc6PTg4ODg4"
+                "ODg+PxcAAAAAAAAAEwcWCRYJCh8JGSI2Nzg4OTo7PDIlMC4aGQEAAAAAAAAT"
+                "BxEpKissLS4rLzAxMiUzNDUuJygpJBoaBQAAAAAAAAADCSUmJygoHh4oKCMb"
+                "JCMaJCQbIBsIIiMFAAAAAAAAAA4HIhseHh4iHiIICAgiHiIICAgICAgiIA8A"
+                "AAAAAAAABQciGx4ZCAgICgoVGRkZGRUZFRUJCQgkBQAAAAAAAAAPHAoKCgoI"
+                "HiMjJB4JEQkJCREJEREJGRsPAAAAAAAAAA8UCQkJCR4aISIIFRERERERERER"
+                "EREZGw8AAAAAAAAADx0RERERCh4eHhsKEREREQcWFgcHBx8gBQAAAAAAAAAP"
+                "FAkRGRkIGhsbCAoHBwcHCwsLHBwHBxEPAAAAAAAAAA8UCREJCQkVCRYHFxIX"
+                "FgcLCwcUDAYYGAEAAAAAAAAADxAHBwcJCQkKCREDBQ0SBgQOEwEAAAAAAAAA"
+                "AAAAAAABBgcICQoJCwwGDQ4BAQEBAAAAAAAAAAAAAAAAAAAAAAAAAgMEBQEA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+
+[Device Classification]
+        Class1 = EtherNetIP;
+
+
+[Params]
+        Param1 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC8,                   $ Data Type
+                4,                      $ Data Size in bytes
+                "RPI",                  $ name
+                "",                     $ units
+                "",                     $ help string
+                10000,1000000,50000,    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param2 =
+                0,
+                ,,
+                0x0100,
+                0xC7,
+                2,
+                "Input Size",
+                "Bytes",
+                "Size of the adapter's produced data",
+                256,256,256,
+                ,,,,
+                ,,,,
+                ;
+        Param3 =
+                0,
+                ,,
+                0x0100,
+                0xC7,
+                2,
+                "Output Size",
+                "Bytes",
+                "Size of the adapter's consumed data",
+                256,256,256,
+                ,,,,
+                ,,,,
+                ;
+        Param4 =
+                0,
+                ,,
+                0x0100,
+                0xC6,
+                1,
+                "Data Type",
+                "Bytes",
+                "Size of the adapter's produced data",
+                0,255,0,
+                ,,,,
+                ,,,,
+                ;
+
+[Assembly]
+        Revision = 2;
+        Object_Name = "Assembly Object";
+        Object_Class_Code = 0x04;
+        MaxInst = 110;
+        Number_Of_Static_Instances = 2;
+        Max_Number_Of_Dynamic_Instances = 0;    $ MAX_ASSEMBLIES-Number_Of_Static_Instances
+
+        Assem100 =
+                "Output Data",          $ Assembly name
+                "",                     $ "20 04 24 64 30 03",    $ Path
+                ,                       $ size
+                0x0001,                 $ descriptor, 7=variable size, adapter included
+                ,,                      $ reserved
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4;
+
+        Assem110 =
+                "Input Data",           $ Assembly name
+                "",                     $ "20 04 24 65 30 03",    $ Path
+                ,                       $ size
+                0x0001,                 $ descriptor, 7=variable size, adapter included
+                ,,                      $ reserved
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4,
+                8,Param4;
+
+
+[Connection Manager]
+        Revision = 1;
+        Object_Name = "Connection Manager Object";
+        Object_Class_Code = 0x06;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+        Class_Attributes =
+                0x01,
+                0x02,
+                0x03,
+                0x04,
+                0x06,
+                0x07;                   $ "Standard" class attributes
+        Instance_Attributes =
+                0x01,
+                0x02,
+                0x03,
+                0x04,
+                0x05,
+                0x06,
+                0x07,
+                0x08;                   $ statistics attributes
+        Class_Services =
+                0x01,                   $ GetAttributeAll supported
+                0x0E;                   $ GetAttributeSingle supported
+        Instance_Services =
+                0x01,
+                0x02,                   $ Get/SetAttributeAll supported
+                0x0E,
+                0x10,                   $ Get/SetAttributeSingle supported
+                0x4E,                   $ FwdClose supported
+                0x52,
+                0x54,                   $ FwdOpen supported
+                0x5A,                   $ UnconnectedSend supported
+                0x5B;                   $ LargeFwdOpen supported
+
+        Connection1 =
+                0x04010002,             $ trigger & transport
+                                        $ 	0-15	= supported transport classes (class 0+1)
+                                        $ 	16	= cyclic (1 = supported)
+                                        $ 	17	= change of state (1 = supported)
+                                        $ 	18	= on demand (1 = supported)
+                                        $ 	19-23	= reserved (must be zero)
+                                        $ 	24-27	= exclusive owner
+                                        $ 	28-30	= reserved (must be zero)
+                                        $ 	31	= client 0 (don't care for classes 0 and 1)
+                0x66640405,             $ connection parameters
+                                        $ 	0	= O=>T fixed (1 = supported)
+                                        $ 	1	= O=>T variable (1 = supported)
+                                        $ 	2	= T=>O fixed (1 = supported)
+                                        $ 	3	= T=>O variable (1 = supported)
+                                        $ 	4-7	= reserved (must be zero)
+                                        $ 	8-11	= O=>T header (4 byte run/idle)
+                                        $ 	12-15	= T=>O header (modeless)
+                                        $ 16-19	= O=>T connection type (multicast & point-to-point)
+                                        $ 20-23	= T=>O connection type (multicast & point-to-point)
+                                        $ 24-27	= O=>T priority (scheduled)
+                                        $ 28-31	= T=>O priority (scheduled)
+                Param1,Param3,Assem100, $ O=>T RPI,Size,Format
+                Param1,Param2,Assem110, $ T=>O RPI,Size,Format
+                ,,                      $ config part 1 (not used)
+                ,,                      $ config part 2 (not used)
+                "Class1 Exclusive Owner",    $ connection name
+                "",                     $ Help string
+                "20 04 24 01 2C 64 2C 6E";
+
+        Connection2 =
+                0x02010002,             $ trigger & transport
+                                        $  0-15  = supported transport classes (class 0+1)
+                                        $  16 = cyclic (1 = supported)
+                                        $  17 = change of state (1 = supported)
+                                        $  18 = on demand (1 = supported)
+                                        $  19-23 = reserved (must be zero)
+                                        $  24-27 = input only
+                                        $  28-30 = reserved (must be zero)
+                                        $  31 = client 0 (don't care for classes 0 and 1)
+                0x66640305,             $ connection parameters
+                                        $ 	0	= O=>T fixed (1 = supported)
+                                        $ 	1	= O=>T variable (1 = supported)
+                                        $ 	2	= T=>O fixed (1 = supported)
+                                        $ 	3	= T=>O variable (1 = supported)
+                                        $ 4-7 = reserved (must be zero)
+                                        $ 8-11  = O=>T header (heartbeat)
+                                        $ 12-15 = T=>O header (modeless)
+                                        $ 16-19	= O=>T connection type (multicast & point-to-point)
+                                        $ 20-23	= T=>O connection type (multicast & point-to-point)
+                                        $ 24-27 = O=>T priority (scheduled)
+                                        $ 28-31 = T=>O priority (scheduled)
+                Param1,0,,              $ O=>T RPI,Size,Format
+                Param1,Param2,Assem110, $ T=>O RPI,Size,Format
+                ,,                      $ config part 1 (not used)
+                ,,                      $ config part 2 (not used)
+                "Class1 Input Only",    $ connection name
+                "",                     $ Help string
+                "20 04 24 01 2C C6 2C 6E";    $ inputs only path
+
+
+        Connection3 =
+                0x01010002,             $ trigger & transport
+                                        $  0-15  = supported transport classes (class 0+1)
+                                        $  16 = cyclic (1 = supported)
+                                        $  17 = change of state (1 = supported)
+                                        $  18 = on demand (1 = supported)
+                                        $  19-23 = reserved (must be zero)
+                                        $  24-27 = input only
+                                        $  28-30 = reserved (must be zero)
+                                        $  31 = client 0 (don't care for classes 0 and 1)
+                0x66640305,             $ connection parameters
+                                        $ 	0	= O=>T fixed (1 = supported)
+                                        $ 	1	= O=>T variable (1 = supported)
+                                        $ 	2	= T=>O fixed (1 = supported)
+                                        $ 	3	= T=>O variable (1 = supported)
+                                        $ 4-7 = reserved (must be zero)
+                                        $ 8-11  = O=>T header (heartbeat)
+                                        $ 12-15 = T=>O header (modeless)
+                                        $ 16-19	= O=>T connection type (multicast & point-to-point)
+                                        $ 20-23	= T=>O connection type (multicast & point-to-point)
+                                        $ 24-27 = O=>T priority (scheduled)
+                                        $ 28-31 = T=>O priority (scheduled)
+                Param1,0,,              $ O=>T RPI,Size,Format
+                Param1,Param2,Assem110, $ T=>O RPI,Size,Format
+                ,,                      $ config part 1 (not used)
+                ,,                      $ config part 2 (not used)
+                "Class1 Listen Only",   $ connection name
+                "",                     $ Help string
+                "20 04 24 01 2C C7 2C 6E";    $ listen only path
+
+[Capacity]
+        MaxCIPConnections = 32;
+        TSpec1 = TxRx, 500, 400;
+
+[TCP/IP Interface Class]
+        Revision = 3;
+        Object_Name = "TCP/IP Interface Object";
+        Object_Class_Code = 0xF5;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+        Class_Attributes =
+                0x01,
+                0x02,
+                0x03,
+                0x04,
+                0x06,
+                0x07;
+        Instance_Attributes =
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                13,
+                16,
+                17;
+        Class_Services =
+                0x01,                   $ GetAttributeAll supported
+                0x0E;                   $ GetAttributeSingle supported
+        Instance_Services =
+                0x01,
+                0x0E,
+                0x10;                   $ Get/SetAttributeSingle supported
+
+[Ethernet Link Class]
+        Revision = 3;
+        Object_Name = "Ethernet Link Object";
+        Object_Class_Code = 0xF6;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+        Class_Attributes =
+                0x01,
+                0x02,
+                0x03,
+                0x04,
+                0x06,
+                0x07;
+        Instance_Attributes =
+                1,
+                2,
+                3,
+                7,
+                8,
+                9,
+                10,
+                11;
+        Class_Services =
+                0x01,                   $ GetAttributeAll supported
+                0x0E;                   $ GetAttributeSingle supported
+        Instance_Services =
+                0x01,                   $ GetAttributeAll supported
+                0x0E,
+                0x10;                   $ Get/SetAttributeSingle supported
+
+[Identity Class]
+        Revision = 1;
+        Object_Name = "Identity Object";
+        Object_Class_Code = 0x01;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+        Class_Attributes =
+                0x01,
+                0x02,
+                0x03,
+                0x06,
+                0x07;                   $ "Standard" class attributes
+        Instance_Attributes =
+                0x01,
+                0x02,
+                0x03,
+                0x04,
+                0x05,
+                0x06,
+                0x07;                   $ "Required" attributes
+        Class_Services =
+                0x01,                   $ GetAttributeAll supported
+                0x0E;                   $ GetAttributeSingle supported
+        Instance_Services =
+                0x01,                   $ GetAttributeAll supported
+                0x05,                   $ Reset supported
+                0x0E;
+
+[Message Router Class]
+        Revision = 1;
+        Object_Name = "Message Router Object";
+        Object_Class_Code = 0x02;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+        Class_Attributes =
+                0x01,
+                0x02,
+                0x03,
+                0x04,
+                0x05,
+                0x06,
+                0x07;                   $ "Standard" class attributes
+        Instance_Attributes =
+                0x01,
+                0x02,                   $ "Required" attributes
+                0x03;
+        Class_Services =
+                0x01,                   $ GetAttributeAll supported
+                0x0E;                   $ GetAttributeSingle supported
+        Instance_Services =
+                0x01,                   $ GetAttributeAll supported
+                0x0E,                   $ GetAttributeSingle supported
+                0x0A;
+
+$ ****************************************************************************
+$ EOF
+$ ****************************************************************************
+
